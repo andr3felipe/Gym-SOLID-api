@@ -16,6 +16,7 @@
 <li>Zod</li>
 <li>Docker</li>
 <li>JWT</li>
+<li>Vitest</li>
 </ul>
 
 ## FEATURES:
@@ -46,7 +47,7 @@
 <br>
 <br>
 
-##### 1. To test the project open the terminal and:
+##### 1. To test the project open the terminal and then run the command:
 ```
 git clone https://github.com/andr3felipe/Gym-SOLID-api.git
 ```
