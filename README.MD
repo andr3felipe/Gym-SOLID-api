@@ -5,6 +5,19 @@
 * [FEATURES](#FEATURES)
 * [LINK TO TEST THE PROJECT](#LINK-PARA-TESTE-DO-PROJETO-/-LINK-TO-TEST-THE-PROJECT)
 
+## MADE WITH
+<ul>
+<li>Typescript</li>
+<li>NodeJS</li>
+<li>Fastify</li>
+<li>Prisma</li>
+<li>PostgreSQL</li>
+<li>Bcryptjs</li>
+<li>Zod</li>
+<li>Docker</li>
+<li>JWT</li>
+</ul>
+
 ## FEATURES:
 <ul>
 <li>[X] - It must be possible to register.</li>
