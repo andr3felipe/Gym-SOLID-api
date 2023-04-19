@@ -133,7 +133,7 @@ npm run dev
 <br>
 <br>
 
-### COMO INCIAR O PROJETO
+### COMO INCIAR O PROJETO:
 
 ##### 1. Para testar o projeto abra o terminal e execute o comando:
 ```
