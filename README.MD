@@ -5,18 +5,20 @@
 * [MADE WITH](#MADE-WITH:)
 * [FEATURES](#FEATURES:)
 * [HOW TO RUN](#HOW-TO-RUN:)
+<br>
 
 ## PORTUGUÊS
-[DESCRIÇÃO](#DESCRIÇÃO:)
-[FEITO COM](#FEITO-COM:)
-[FUNCIONALIDADES](#FUNCIONALIDADES:)
-[COMO INICIAR O PROJETO](#COMO-INICIAR-O-PROJETO:)
-
+* [DESCRIÇÃO](#DESCRIÇÃO:)
+* [FEITO COM](#FEITO-COM:)
+* [FUNCIONALIDADES](#FUNCIONALIDADES:)
+* [COMO INICIAR O PROJETO](#COMO-INICIAR-O-PROJETO:)
+<br>
 
 # ENGLISH
 
 ### DESCRIPTION:
 <p>A gym check-in REST API building under TDD (Vitest) and SOLID concepts, using JWT for authentication.</p>
+<br>
 
 ### MADE WITH:
 <ul>
@@ -31,6 +33,7 @@
 <li>JWT</li>
 <li>Vitest</li>
 </ul>
+<br>
 
 ### FEATURES:
 <ul>
@@ -85,6 +88,7 @@ npm run dev
 
 ### DESCRIÇÃO:
 <p>Uma API REST de check-in de academias, construida utilizando as metodologias TDD (Vitest) e SOLID, com JWT para autenticação.</p>
+<br>
 
 ### FEITO COM:
 <ul>
@@ -99,6 +103,7 @@ npm run dev
 <li>JWT</li>
 <li>Vitest</li>
 </ul>
+<br>
 
 ### FUNCIONALIDES:
 <ul>
