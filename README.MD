@@ -1,15 +1,24 @@
 ## GYM SOLID API
-* [DESCRIPTION](#DESCRIPTION:) -/- * [DESCRIÇÃO](#DESCRIÇÃO:)
-* [GIF](#GIF:) -/- * [GIF](#GIF:)
-* [MADE WITH](#MADE-WITH:) -/- * [FEITO COM](#FEITO-COM:)
-* [FEATURES](#FEATURES:) -/- * [FUNCIONALIDADES](#FUNCIONALIDADES:)
+
+## ENGLISH
+* [DESCRIPTION](#DESCRIPTION:)
+* [MADE WITH](#MADE-WITH:)
+* [FEATURES](#FEATURES:)
+* [HOW TO RUN](#HOW-TO-RUN:)
+
+## PORTUGUÊS
+[DESCRIÇÃO](#DESCRIÇÃO:)
+[FEITO COM](#FEITO-COM:)
+[FUNCIONALIDADES](#FUNCIONALIDADES:)
+[COMO INICIAR O PROJETO](#COMO-INICIAR-O-PROJETO:)
+
 
 # ENGLISH
 
-## DESCRIPTION:
+### DESCRIPTION:
 <p>A gym check-in REST API building under TDD (Vitest) and SOLID concepts, using JWT for authentication.</p>
 
-## MADE WITH:
+### MADE WITH:
 <ul>
 <li>Typescript</li>
 <li>NodeJS</li>
@@ -23,7 +32,7 @@
 <li>Vitest</li>
 </ul>
 
-## FEATURES:
+### FEATURES:
 <ul>
 <li>[X] - It must be possible to register;</li>
 <li>[X] - It must be possible to authenticate;</li>
@@ -51,12 +60,33 @@
 <br>
 <br>
 
+### HOW TO RUN:
+
+##### 1. To test the project open the terminal and then run the command:
+```
+git clone https://github.com/andr3felipe/Gym-SOLID-api.git
+```
+##### 2. Navigate to the cloned project folder (Gym-SOLID-api) and then run the command:
+```
+npm i
+npm run test
+```
+
+#### - If you want to run the project and you have docker installed.
+##### 1. Navigate to the project folder (Gym-SOLID-api) and then run the command:
+```
+npm i
+docker compose up -d
+npm run dev
+```
+
+
 # PORTUGUÊS
 
-## DESCRIÇÃO:
+### DESCRIÇÃO:
 <p>Uma API REST de check-in de academias, construida utilizando as metodologias TDD (Vitest) e SOLID, com JWT para autenticação.</p>
 
-## FEITO COM:
+### FEITO COM:
 <ul>
 <li>Typescript</li>
 <li>NodeJS</li>
@@ -70,7 +100,7 @@
 <li>Vitest</li>
 </ul>
 
-## FUNCIONALIDES:
+### FUNCIONALIDES:
 <ul>
 <li>[X] - Deve ser possível se cadastrar;</li>
 <li>[X] - Deve ser possível se autenticar;</li>
@@ -98,18 +128,20 @@
 <br>
 <br>
 
-##### 1. To test the project open the terminal and then run the command:
+### COMO INCIAR O PROJETO
+
+##### 1. Para testar o projeto abra o terminal e execute o comando:
 ```
 git clone https://github.com/andr3felipe/Gym-SOLID-api.git
 ```
-##### 2. Navigate to the cloned project folder (Gym-SOLID-api) and then run the command:
+##### 2. Navegue até a pasta do projeto clonado (Gym-SOLID-api) e então execute o comando:
 ```
 npm i
 npm run test
 ```
 
-#### - If you want to run the project and you have docker installed.
-##### 1. Navigate to the project folder (Gym-SOLID-api) and then run the command:
+#### - Se você quer executar o projeto e tem docker instalado:
+##### 1. Navegue até a pasta do projeto clonado (Gym-SOLID-api) e então execute o comando:
 ```
 npm i
 docker compose up -d
