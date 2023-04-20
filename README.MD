@@ -63,22 +63,23 @@
 <br>
 <br>
 
-### HOW TO RUN:
+## HOW TO RUN:
 
-##### 1. To test the project open the terminal and then run the command:
+### How to clone the project:
+#### Open your terminal and execute the following commands:
 ```
 git clone https://github.com/andr3felipe/Gym-SOLID-api.git
-```
-##### 2. Navigate to the cloned project folder (Gym-SOLID-api) and then run the command:
-```
+cd gym-solid-api
 npm i
+```
+
+#### - To test the project run the command:
+```
 npm run test
 ```
 
-#### - If you want to run the project and you have docker installed.
-##### 1. Navigate to the project folder (Gym-SOLID-api) and then run the command:
+#### - If you want to run the project and you have docker installed:
 ```
-npm i
 docker compose up -d
 npm run dev
 ```
@@ -133,22 +134,23 @@ npm run dev
 <br>
 <br>
 
-### COMO INICIAR O PROJETO:
+## COMO INICIAR O PROJETO:
 
-##### 1. Para testar o projeto abra o terminal e execute o comando:
+### Como clonar o projeto:
+#### Abra o terminal e execute os seguintes comandos:
 ```
 git clone https://github.com/andr3felipe/Gym-SOLID-api.git
-```
-##### 2. Navegue até a pasta do projeto clonado (Gym-SOLID-api) e então execute o comando:
-```
+cd gym-solid-api
 npm i
+```
+
+#### - Para testar o projeto execute o comando:
+```
 npm run test
 ```
 
-#### - Se você quer executar o projeto e tem docker instalado:
-##### 1. Navegue até a pasta do projeto clonado (Gym-SOLID-api) e então execute o comando:
+#### - Se você quer iniciar o projeto e tem docker instalado:
 ```
-npm i
 docker compose up -d
 npm run dev
 ```
