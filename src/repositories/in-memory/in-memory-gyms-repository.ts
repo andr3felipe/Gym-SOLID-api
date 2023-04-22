@@ -53,18 +53,4 @@ export class InMemoryGymsRepository implements GymsRepository {
       return distance < 10
     })
   }
-
-  async findByLocation(latitude: number, longitude: number) {
-    const gym = this.items.find(
-      (item) =>
-        item.latitude.toNumber() === latitude &&
-        item.longitude.toNumber() === longitude,
-    )
-
-    if (!gym) {
-      return null
-    }
-
-    return gym
-  }
 }
