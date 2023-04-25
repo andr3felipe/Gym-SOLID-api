@@ -1,6 +1,5 @@
 import { Gym } from '@prisma/client'
 import { GymsRepository } from '@/repositories/gyms-repository'
-import { GymAlreadyExistsError } from './errors/gym-already.exists'
 
 interface CreateGymUseCaseRequest {
   title: string
@@ -25,15 +24,6 @@ export class CreateGymUseCase {
     latitude,
     longitude,
   }: CreateGymUseCaseRequest): Promise<CreateGymUseCaseResponse> {
-    const gymAlreadyExists = await this.gymRepository.findByLocation(
-      latitude,
-      longitude,
-    )
-
-    if (gymAlreadyExists) {
-      throw new GymAlreadyExistsError()
-    }
-
     const gym = await this.gymRepository.create({
       title,
       description,
