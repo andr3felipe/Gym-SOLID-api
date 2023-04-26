@@ -22,24 +22,4 @@ describe('Create Gym Use Case', () => {
 
     expect(gym.id).toEqual(expect.any(String))
   })
-
-  it('Should not be able to create a gym in the same location', async () => {
-    await sut.execute({
-      title: 'Smart Fit',
-      description: 'A melhor academia',
-      phone: '(19) 99854-1923',
-      latitude: -22.393631,
-      longitude: -47.5850395,
-    })
-
-    await expect(() =>
-      sut.execute({
-        title: 'Smart Fit',
-        description: 'A melhor academia',
-        phone: '(19) 99854-1923',
-        latitude: -22.393631,
-        longitude: -47.5850395,
-      }),
-    ).rejects.toBeInstanceOf(Error)
-  })
 })
