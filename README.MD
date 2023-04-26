@@ -113,23 +113,23 @@ npm run dev
 <li>[X] - Deve ser possível obter o perfil de um usuário logado;</li>
 <li>[X] - Deve ser possível obter o número de check-ins relizados pelo usuário logado;</li>
 <li>[X] - Deve ser possível o usuário obter seu histórico de check-ins;</li>
-<li>[ ] - Deve ser possível o usuário buscar academias próximas;</li>
-<li>[ ] - Deve ser possível o usuário buscar academias pelo nome;</li>
+<li>[X] - Deve ser possível o usuário buscar academias próximas;</li>
+<li>[X] - Deve ser possível o usuário buscar academias pelo nome;</li>
 <li>[X] - Deve ser possível o usuário realizar o check-in em uma academia;</li>
-<li>[ ] - Deve ser possível validar o check-in de um usuário;</li>
+<li>[X] - Deve ser possível validar o check-in de um usuário;</li>
 <li>[X] - Deve ser possível cadastrar uma academia;</li>
 <br>
 <li>[X] - O usuário não deve poder se cadastrar com um e-mail duplicado;</li>
 <li>[X] - O usuário não pode fazer 2 check-ins no mesmo dia;</li>
 <li>[X] - O usuário não pode fazer check-ins se não estiver perto (100m) da academia;</li>
-<li>[ ] - O check-in só pode ser validado até 20 minutos após criado;</li>
-<li>[ ] - O check-in só pode ser validado por administradores;</li>
-<li>[ ] - A academia só pode ser cadastrar por administradores;</li>
+<li>[X] - O check-in só pode ser validado até 20 minutos após criado;</li>
+<li>[X] - O check-in só pode ser validado por administradores;</li>
+<li>[X] - A academia só pode ser cadastrar por administradores;</li>
 <br>
 <li>[X] - A senha do usuário precisa estar criptografada;</li>
 <li>[X] - Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;</li>
 <li>[X] - Todas listas de dados precisam estar paginadas com 20 itens por página;</li>
-<li>[ ] - O usuário deve ser identificado por um JWT (JSON Web Token);</li>
+<li>[X] - O usuário deve ser identificado por um JWT (JSON Web Token);</li>
 </ul>
 <br>
 <br>
