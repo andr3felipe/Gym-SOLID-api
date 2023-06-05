@@ -80,6 +80,7 @@ npm run test
 
 #### - If you want to run the project and you have docker installed:
 ```
+npx prisma migrate dev
 docker compose up -d
 npm run dev
 ```
@@ -151,6 +152,7 @@ npm run test
 
 #### - Se você quer iniciar o projeto e tem docker instalado:
 ```
+npx prisma migrate dev
 docker compose up -d
 npm run dev
 ```
